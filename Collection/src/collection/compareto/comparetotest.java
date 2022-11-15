@@ -25,5 +25,13 @@ public class comparetotest {
         }else{
             System.out.println(str1 +" not equal to " +str2);
         }
+        
+        student s1 = new student();
+        student s2 = new student();
+        
+        s1.name = "adi";
+        s2.name = "ojan";
+        
+        System.out.println(s1.name.compareTo(s2.name));
     }
 }
